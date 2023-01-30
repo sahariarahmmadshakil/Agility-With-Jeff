@@ -1,0 +1,245 @@
+body {
+    max-width: 1360px;
+    margin: auto;
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+body {
+    position: relative
+}
+
+.top-area {
+    background-color: #162749;
+}
+
+.top-text {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+
+.common-bg {
+    background-color: #162749;
+}
+
+.common-text {
+    color: #162749;
+}
+
+.get-btn {
+    padding: 15px 30px;
+    background: #789060;
+    color: #FFFFFF;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.count-number {
+    color: #ffffff;
+    background-color: #789060;
+    padding: 8px 23px;
+    border: none;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 50px;
+}
+
+.coming-color {
+    color: #789060;
+}
+
+.sec-section {
+    background-image: url('../images/bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.text-padding-area {
+    padding: 48px 48px 48px 10px;
+    font-size: 24px;
+}
+
+.pink-bg {
+    background-color: #E1DEE1;
+}
+
+.learn-more-btn {
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    color: #314528;
+    text-decoration: none;
+}
+
+.footer {
+    background-image: url('../images/footer.png');
+    background-size: cover;
+
+}
+
+.footer-row {
+    background-color: #ffffffd2;
+    border: 1px solid rgba(0, 0, 0, 0.834);
+    border-radius: 20px;
+    width: 50%;
+
+
+}
+
+.input-field {
+    width: 250px;
+    height: 20px;
+    background-color: #ffffff03;
+    border: 0px;
+    border-bottom: 1.5px solid #755F52;
+}
+
+textarea {
+    width: 94%;
+    height: 20px;
+    background-color: #ffffff03;
+    border: 0px;
+    border-bottom: 1.5px solid #755F52;
+}
+
+.social-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.form-field {
+    width: 700px;
+}
+
+.icon-img {
+    width: 90%;
+}
+
+.form-btn {
+    background-color: #789060;
+    color: #ffffff;
+    border-radius: 30px;
+    padding: 10px 30px;
+    border: none;
+    position: absolute;
+    margin-top: -20px;
+    margin-right: 30px;
+}
+
+.topic-1 {
+    background-image: url('../images/pine.png');
+    height: 439px;
+    width: 340px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.topic-2 {
+    background-image: url('../images/l1.png');
+    height: 439px;
+    width: 340px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.topic-3 {
+    background-image: url('../images/tob.png');
+    height: 439px;
+    width: 340px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.topic-4 {
+    background-image: url('../images/carrot.png');
+    height: 439px;
+    width: 340px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.up-area {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color: #E1DEE1;
+    border-radius: 30px;
+}
+
+.pink-text-bg {
+    background-color: #e1dee100;
+}
+
+@media only screen and (max-width: 1260px) and (min-width: 769px) {
+    .text-padding-area {
+        font-size: 16px;
+    }
+
+    .footer-row {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 200px) {
+    .top-round-area {
+        width: 50%;
+        height: 400px;
+    }
+
+    .text-padding-area {
+        font-size: 16px;
+        padding: 0px;
+    }
+
+
+    .social-icon {
+        align-items: center;
+    }
+
+
+    .input-field {
+        width: 200px;
+
+    }
+
+    textarea {
+        width: 90%;
+
+    }
+
+    .form-field {
+        width: 100%;
+    }
+
+    .form-btn {
+        background-color: #789060;
+        color: #ffffff;
+        border-radius: 30px;
+        padding: 5px 10px;
+        border: none;
+        position: absolute;
+        margin-top: -20px;
+        margin-right: 20px;
+    }
+
+    .top-text {
+        text-align: center;
+    }
+
+    .footer-row {
+        width: 80%;
+    }
+}

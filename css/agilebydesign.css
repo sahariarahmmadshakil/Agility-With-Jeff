@@ -1,6 +1,5 @@
 body {
-    margin: auto;    
-    background-color: #e1dee1;
+    margin: auto;
 }
 
 html,
@@ -11,6 +10,7 @@ body {
 body {
     position: relative
 }
+
 .text-left-area {
     display: flex;
     flex-direction: column;
@@ -21,6 +21,7 @@ body {
     top: 75px;
 
 }
+
 .agile-area {
     background-image: url('../images/agile-bg.png');
     background-position: center;
@@ -46,6 +47,8 @@ body {
 .footer {
     background-image: url('../images/footer.png');
     background-size: cover;
+    background-position: center;
+    padding-bottom: 67px;
 
 }
 
@@ -99,21 +102,23 @@ textarea {
     padding: 10px 30px;
     border: none;
     position: absolute;
-    margin-top: 20px;
-    margin-right: 30px;
+    margin-top: 100px;
+    right: 43%;
 }
 
 @media only screen and (max-width: 1260px) and (min-width: 769px) {
     .agile-font {
         font-size: 16px;
     }
+
     .text-left-area {
-      
+
         top: 50px;
         font-size: 15px;
-    
+
     }
-    .footer-row{
+
+    .footer-row {
         width: 70%;
     }
 }
@@ -122,13 +127,15 @@ textarea {
     .top-header {
         font-size: 36px;
     }
+
     .text-left-area {
-      
+
         top: 75px;
         left: 0px;
         font-size: 16px;
-    
+
     }
+
     .agile-font {
         font-size: 16px;
     }
@@ -159,13 +166,16 @@ textarea {
         padding: 5px 10px;
         border: none;
         position: absolute;
-        margin-top: -20px;
-        margin-right: 20px;
+        margin-top: 25px;
+        right: 15%;
     }
 
     .footer-row {
         width: 80%;
     }
 
+    .footer {
+        padding-bottom: 3px;
+    }
 
 }

@@ -1,6 +1,5 @@
 body {
     margin: auto;
-    background-color: #e1dee1;
 }
 
 html,
@@ -52,6 +51,8 @@ body {
 .footer {
     background-image: url('../images/footer.png');
     background-size: cover;
+    background-position: center;
+    padding-bottom: 67px;
 
 }
 
@@ -94,6 +95,7 @@ textarea {
     width: 90%;
 }
 
+
 .form-btn {
     background-color: #789060;
     color: #ffffff;
@@ -101,8 +103,8 @@ textarea {
     padding: 10px 30px;
     border: none;
     position: absolute;
-    margin-top: -20px;
-    margin-right: 30px;
+    margin-top: 80px;
+    right: 43%;
 }
 
 .top-header-body {
@@ -119,7 +121,8 @@ textarea {
     .top-header-body {
         font-size: 18px;
     }
-    .footer-row{
+
+    .footer-row {
         width: 70%;
     }
 }
@@ -155,12 +158,15 @@ textarea {
         padding: 5px 10px;
         border: none;
         position: absolute;
-        margin-top: -20px;
-        margin-right: 20px;
+        margin-top: 25px;
+        right: 15%;
     }
 
     .footer-row {
         width: 80%;
+    }
+    .footer {
+        padding-bottom: 3px;
     }
 
 }

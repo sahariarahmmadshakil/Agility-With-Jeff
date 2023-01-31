@@ -55,7 +55,9 @@ body {
     background-color: #162749;
 }
 
-
+.list-color {
+    color: rgb(255, 255, 255)
+}
 
 .sec-section {
     background-image: url('../images/bg.png');
@@ -250,5 +252,9 @@ textarea {
     .footer-row {
         width: 80%;
     }
+    .list-color {
+        color: rgb(108, 117, 125)
+    }
+
 
 }

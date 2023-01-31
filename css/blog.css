@@ -20,7 +20,9 @@ body {
     font-weight: 700;
 }
 
-
+.list-color {
+    color: rgb(255, 255, 255)
+}
 .common-bg {
     background-color: #162749;
 }
@@ -247,4 +249,8 @@ textarea {
     .footer {
         padding-bottom: 3px;
     }
+    .list-color {
+        color: rgb(108, 117, 125)
+    }
+
 }

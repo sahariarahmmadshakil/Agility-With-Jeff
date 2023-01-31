@@ -10,7 +10,9 @@ body {
 body {
     position: relative
 }
-
+main{
+    max-width: 1366px;
+}
 .text-left-area {
     display: flex;
     flex-direction: column;
@@ -21,7 +23,9 @@ body {
     top: 75px;
 
 }
-
+.list-color {
+    color: rgb(255, 255, 255)
+}
 .agile-area {
     background-image: url('../images/agile-bg.png');
     background-position: center;
@@ -177,5 +181,7 @@ textarea {
     .footer {
         padding-bottom: 3px;
     }
-
+    .list-color {
+        color: rgb(108, 117, 125)
+    }
 }

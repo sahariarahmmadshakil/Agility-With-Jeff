@@ -11,6 +11,10 @@ body {
     position: relative
 }
 
+.list-color {
+    color: #ffffff;
+}
+
 .top-header {
     font-weight: 700;
     font-size: 56px;
@@ -165,8 +169,12 @@ textarea {
     .footer-row {
         width: 80%;
     }
+
     .footer {
         padding-bottom: 3px;
     }
 
+    .list-color {
+        color: rgb(108, 117, 125)
+    }
 }

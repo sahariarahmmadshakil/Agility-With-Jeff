@@ -89,9 +89,9 @@
     </section>
 
 
-    <section class="container sec-section pb-5" id="about">
+    <section class="container sec-section pb-5 pt-5" id="about">
         <div class="row py-5  d-flex align-items-center ">
-            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 ">
+            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
                 <img src="images/jeff.png" alt="" class="img-fluid">
             </div>
             <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8 col-xxl-8 about-text px-2">
@@ -117,7 +117,7 @@
             </div>
         </div>
     </section>
-    <section class="container embark-area pt-2" id="lg">
+    <section class="container embark-area pt-4" id="lg">
         <h1 class="text-center pt-5 text-white" style=" font-size:50px;font-weight: 900;">Embark on The Agile Journey
         </h1>
         <div class="row row-cols-1 row-cols-md-3 g-2">
@@ -353,7 +353,7 @@
     </section>
 
     <section class="container book-area pt-5" id="book">
-        <h1 style="color: #ffffff; font-size: 56px; font-weight: 700;" class="ms-5 ps-3">Praise for The Book</h1>
+        <h1 style="color: #ffffff; font-size: 56px; font-weight: 700;" class="ms-5 ps-3 mt-4">Praise for The Book</h1>
 
         <div class="row px-5">
             <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
@@ -410,8 +410,8 @@
                             </div>
                         </div>
                         <label for="message">Messages*</label>
-                        <br><br><br>
-                        <input type="text" name="message" id="message" class="input-field">
+                        <br><br><br><br><br>
+                        <textarea id="message" name="message" placeholder="Type your message here"></textarea>
                         <input type="submit" id="button" value="Send Email" class="float-right form-btn">
                     </form>
                 </div>
@@ -420,6 +420,33 @@
 
             <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3 pb-4">
                 <div class="social-icon pt-3">
+                    <!-- Button trigger modal -->
+                    <!-- <a data-bs-toggle="modal" data-bs-target="#staticBackdrop"><img src="images/e.png" alt=""
+                            class="img-fluid icon-img py-1"></a> -->
+
+
+                    <!-- Modal -->
+                    <!-- <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog w-75">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>lorem10`</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Understood</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                    <!-- ========================= -->
                     <a href="#"> <img src="images/e.png" alt="" class="img-fluid icon-img py-1"></a>
                     <a href="https://www.linkedin.com/in/thomasjeffreyandersontwin/"> <img src="images/ln.png" alt=""
                             class="img-fluid icon-img py-1">
@@ -431,7 +458,6 @@
         </div>
     </section>
     <footer class="common-bg container pt-5 pb-0 px-0">
-        <hr style="color: #ffffff;">
         <div class="row pt-4">
 
             <div>
@@ -447,7 +473,7 @@
                 </p>
             </div>
 
-            <p class="text-white text-center fs-6 pt-2">Copyright ©Agility With Jeff @2023 All rights reserved.</p>
+            <p class="text-white text-center fs-6 pt-2 px-4">Copyright ©Agility With Jeff @2023 All rights reserved.</p>
 
         </div>
         </div>
@@ -482,6 +508,9 @@
                         alert(JSON.stringify(err));
                     });
             });
+    </script>
+    <script>
+
     </script>
     <!-- java script link  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"

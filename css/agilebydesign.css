@@ -69,21 +69,28 @@ main{
     font-size: 22px;
 }
 
+
 .input-field {
     width: 250px;
-    height: 20px;
+    height: 30px;
+    background-color: #ffffff03;
+    border: 0px;
+    border-bottom: 1.5px solid #755F52;
+}
+.list-color:hover {
+    color: #e5dddd;
+}
+
+textarea {
+    width: 90%;
+    height: 30px;
+    text-align: left;
+    vertical-align: bottom;
     background-color: #ffffff03;
     border: 0px;
     border-bottom: 1.5px solid #755F52;
 }
 
-textarea {
-    width: 90%;
-    height: 60px;
-    background-color: #ffffff03;
-    border: 0px;
-    border-bottom: 1.5px solid #755F52;
-}
 
 .social-icon {
     display: flex;
@@ -105,9 +112,9 @@ textarea {
     border-radius: 30px;
     padding: 10px 30px;
     border: none;
-    position: absolute;
-    margin-top: 100px;
-    right: 43%;
+    position: relative;
+    top: 35px;
+    left: 70%;
 }
 
 @media only screen and (max-width: 1260px) and (min-width: 769px) {
@@ -151,11 +158,7 @@ textarea {
 
     .input-field {
         width: 200px;
-
-    }
-
-    textarea {
-        width: 50%;
+        margin-bottom: 20px;
 
     }
 
@@ -164,14 +167,8 @@ textarea {
     }
 
     .form-btn {
-        background-color: #789060;
-        color: #ffffff;
-        border-radius: 30px;
-        padding: 5px 10px;
-        border: none;
-        position: absolute;
-        margin-top: 25px;
-        right: 15%;
+        position: unset;
+        margin-top: 20px;
     }
 
     .footer-row {

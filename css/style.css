@@ -3,6 +3,17 @@ body {
     margin: auto;
 }
 
+/* fix modal issues  */
+body.modal-open {
+    padding-right: 0px !important;
+}
+
+.navbar {
+    padding-right: 16px !important;
+}
+
+/* =================== */
+
 html,
 body {
     overflow-x: hidden;
@@ -56,12 +67,16 @@ body {
 }
 
 .list-color {
-    color: rgb(255, 255, 255)
+    color: rgb(255, 255, 255);
+}
+
+.list-color:hover {
+    color: #e5dddd;
 }
 
 .sec-section {
     background-image: url('../images/bg.png');
-    height: 744px;
+    height: 790px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -136,15 +151,17 @@ body {
 
 .input-field {
     width: 250px;
-    height: 20px;
+    height: 30px;
     background-color: #ffffff03;
     border: 0px;
     border-bottom: 1.5px solid #755F52;
 }
 
 textarea {
-    width: 94%;
-    height: 20px;
+    width: 90%;
+    height: 30px;
+    text-align: left;
+    vertical-align: bottom;
     background-color: #ffffff03;
     border: 0px;
     border-bottom: 1.5px solid #755F52;
@@ -170,15 +187,21 @@ textarea {
     border-radius: 30px;
     padding: 10px 30px;
     border: none;
-    position: absolute;
-    margin-top: 80px;
-    right: 43%;
+    position: relative;
+    top: 35px;
+    left: 70%;
 }
+
 
 @media only screen and (max-width: 1260px) and (min-width: 769px) {
     .footer-row {
         width: 70%;
     }
+
+    .sec-section {
+        height: 720px;
+    }
+
 }
 
 @media only screen and (max-width: 768px) and (min-width: 200px) {
@@ -200,7 +223,7 @@ textarea {
     }
 
     .sec-section {
-        height: 1600px;
+        height: 1650px;
     }
 
     .text-left-area {
@@ -222,27 +245,18 @@ textarea {
 
     .input-field {
         width: 200px;
+        margin-bottom: 20px;
 
     }
 
-    textarea {
-        width: 50%;
-
-    }
 
     .form-field {
         width: 100%;
     }
 
     .form-btn {
-        background-color: #789060;
-        color: #ffffff;
-        border-radius: 30px;
-        padding: 5px 10px;
-        border: none;
-        position: absolute;
-        margin-top: 35px;
-        right: 15%;
+        position: unset;
+        margin-top: 20px;
     }
 
     .footer {
@@ -252,6 +266,7 @@ textarea {
     .footer-row {
         width: 80%;
     }
+
     .list-color {
         color: rgb(108, 117, 125)
     }

@@ -85,6 +85,9 @@ body {
     padding-bottom: 67px;
 
 }
+.list-color:hover {
+    color: #e5dddd;
+}
 
 .footer-row {
     background-color: #ffffffd2;
@@ -95,21 +98,25 @@ body {
 
 }
 
+
 .input-field {
     width: 250px;
-    height: 20px;
+    height: 30px;
     background-color: #ffffff03;
     border: 0px;
     border-bottom: 1.5px solid #755F52;
 }
 
 textarea {
-    width: 94%;
-    height: 20px;
+    width: 90%;
+    height: 30px;
+    text-align: left;
+    vertical-align: bottom;
     background-color: #ffffff03;
     border: 0px;
     border-bottom: 1.5px solid #755F52;
 }
+
 
 .social-icon {
     display: flex;
@@ -132,11 +139,10 @@ textarea {
     border-radius: 30px;
     padding: 10px 30px;
     border: none;
-    position: absolute;
-    margin-top: 80px;
-    right: 43%;
+    position: relative;
+    top: 35px;
+    left: 70%;
 }
-
 .topic-1 {
     background-image: url('../images/pine.png');
     height: 439px;
@@ -216,29 +222,20 @@ textarea {
 
     .input-field {
         width: 200px;
+        margin-bottom: 20px;
 
     }
 
-    textarea {
-        width: 90%;
-
-    }
+  
 
     .form-field {
         width: 100%;
     }
 
     .form-btn {
-        background-color: #789060;
-        color: #ffffff;
-        border-radius: 30px;
-        padding: 5px 10px;
-        border: none;
-        position: absolute;
-        margin-top: 25px;
-        right: 15%;
+        position: unset;
+        margin-top: 20px;
     }
-
     .top-text {
         text-align: center;
     }

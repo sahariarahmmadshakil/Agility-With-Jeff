@@ -181,7 +181,7 @@ textarea {
     width: 90%;
 }
 
-.form-btn {
+#button {
     background-color: #789060;
     color: #ffffff;
     border-radius: 30px;
@@ -254,7 +254,7 @@ textarea {
         width: 100%;
     }
 
-    .form-btn {
+    #button {
         position: unset;
         margin-top: 20px;
     }

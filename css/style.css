@@ -38,9 +38,7 @@ body {
     padding-left: 48px;
 }
 
-.top-left {
-    height: 418px;
-}
+
 
 .common-bg {
     background-color: #162749;
@@ -193,9 +191,9 @@ textarea {
     top: 35px;
     left: 70%;
 }
-
+/* ================ */
 .top-leaf-image {
-    width: 21%;
+    width: 28%;
     top: 11%;
 
 }
@@ -208,10 +206,9 @@ textarea {
     .sec-section {
         height: 720px;
     }
-
+/* ============== */
     .top-leaf-image {
-        width: 21%;
-        top: 20%
+        top: 14%
     }
 
     .top-text {
@@ -226,14 +223,15 @@ textarea {
     .top-text {
         padding-left: 0px;
         font-size: 42px;
+        padding-top: 16px;
     }
+    .top-leaf-image {
+                top: 10%
+    }
+
 
     .flower-img {
         width: 28%;
-    }
-
-    .top-left {
-        height: 350px;
     }
 
     .computer-img {
